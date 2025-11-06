@@ -1,0 +1,43 @@
+# ----------------------------------------------------------------------
+# 1. Operating System Files (Should ALWAYS be ignored)
+# ----------------------------------------------------------------------
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+# Windows
+Thumbs.db
+ehthumbs.db
+*.~
+
+# ----------------------------------------------------------------------
+# 2. Common Editor/IDE Files
+# ----------------------------------------------------------------------
+
+# Visual Studio Code
+.vscode/
+
+# Atom
+.atom/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# IntelliJ/Webstorm (and other JetBrains products)
+.idea/
+
+# ----------------------------------------------------------------------
+# 3. Development Artifacts (e.g., if you use a local web server)
+# ----------------------------------------------------------------------
+
+# Common JavaScript package manager files (if you use NPM/Yarn for development dependencies)
+/node_modules
+/npm-debug.log
+/yarn-debug.log*
+
+# Other common temporary directories
+/tmp/
+/temp/
